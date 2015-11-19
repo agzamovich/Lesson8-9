@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Navigation Bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>The Great Wall</h1>
+	</div>
+	<div id="topbar">
+		<button id="menu1btn" onclick="toggleMenu('menu1')">Menu 1</button>
+		<button id="menu2btn" onclick="toggleMenu('menu2')">Menu 2</button>
+	</div>
+	<nav id="menu1" class="folding_menu" data-opened="no">
+		<a href="#">Section A</a>
+		<a href="#">Section B</a>
+		<a href="#">Section C</a>
+		<a href="#">Section D</a>
+	</nav>
+	<nav id="menu2" class="folding_menu" data-opened="no">
+		<a href="#">Section A</a>
+		<a href="#">Section B</a>
+		<a href="#">Section C</a>
+		<a href="#">Section D</a>
+	</nav>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
